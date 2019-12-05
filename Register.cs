@@ -42,7 +42,6 @@ namespace aoc2 {
 
             Dictionary<string, int> result = new Dictionary<string, int> {
                 { "location", this.register[this.index + 3] },
-                // (int) absolute jank holy shit
                 { "value", opCode(this.register[this.register[this.index + 1]], this.register[this.register[this.index + 2]]) }
             };
 
