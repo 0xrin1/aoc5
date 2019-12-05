@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace aoc2 {
+namespace aoc5 {
 
     class Register : ALU
     {
