@@ -2,11 +2,15 @@
 
 namespace aoc5
 {
+
     class Program
     {
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Computer computer = new Computer(args);
         }
+
     }
+
 }
