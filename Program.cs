@@ -8,7 +8,7 @@ namespace aoc2
 
         static void Main(string[] args)
         {
-            Computer computer = new Computer(args[0]);
+            Computer computer = new Computer(args);
         }
 
     }
