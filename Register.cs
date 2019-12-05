@@ -18,7 +18,7 @@ namespace aoc2 {
 
         public bool done()
         {
-            return this.index >= (this.register.Length - 2);
+            return this.isExit() || this.index >= (this.register.Length - 2);
         }
 
         public void next()

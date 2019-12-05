@@ -22,11 +22,6 @@ namespace aoc2
         public void process()
         {
             while (!this.register.done()) {
-                // just listen for 99 out here :shrug:
-                if (this.register.isExit()) {
-                    register.print();
-                    System.Environment.Exit(1);
-                }
                 this.register.executeRow();
                 this.register.next();
             }
